@@ -17,7 +17,7 @@ export function SignIn() {
     }
 
     return (
-        <div className="w-screen h-screen bg-gray-900 flex items-center justify-center flex-col text-gray-100">
+        <div className="w-full h-full bg-gray-900 flex items-center justify-center flex-col text-gray-100">
             <header className='flex flex-col items-center'>
 
                 <Logo />
