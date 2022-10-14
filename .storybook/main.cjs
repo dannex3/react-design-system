@@ -15,11 +15,11 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  // viteFinal: (config, { configType }) => {
-  //   if (configType === 'PRODUCTION') {
-  //     config.base = '/react-design-system.git'
-  //   }
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/react-design-system.git'
+    }
 
-  //   return config
-  // }
+    return config
+  }
 }
