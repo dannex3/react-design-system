@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/react-design-system.git'
+      config.base = '/react-design-system.git/'
     }
 
     return config
